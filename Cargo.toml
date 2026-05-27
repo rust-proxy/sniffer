@@ -1,0 +1,11 @@
+[package]
+name = "sniffer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+huginn-net-tls = { version = "1.7.5", features = ["stable-v1"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+anyhow = "1"
